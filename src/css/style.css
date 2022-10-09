@@ -1,0 +1,27 @@
+@charset 'utf-8';
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    
+}
+video{
+    position: absolute;
+}
+canvas{
+    position: absolute;
+}
+.title{
+    position: relative;
+    margin-bottom: 500px;
+    color:white;
+    font-size:20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
